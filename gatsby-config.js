@@ -67,13 +67,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `22Boxes Gatsby Uno`,
+        name: `PRECITA`,
         short_name: `22Boxes.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/uno-favicon.png`,
+        icon: `content/assets/precita-favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
