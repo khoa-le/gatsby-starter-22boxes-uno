@@ -13,7 +13,7 @@ const IndexPage = ({ data, location }) => {
       <SEO title="PRECITA" />
       <div style={{ marginTop: `30px`, fontFamily: `Montserrat` }}>
         <div style={{margin:"0 auto", textAlign:"center"}}>
-        <Img fixed={data.avatar.childImageSharp.fixed} />
+        <Img fluid={data.image.childImageSharp.fluid} />
         </div>
         
       </div>
@@ -30,10 +30,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    avatar: file(absolutePath: { regex: "/precita.jpg/" }) {
+    image: file(absolutePath: { regex: "/precita.jpg/" }) {
       childImageSharp {
-        fixed(width: 600) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 700) {
+          ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
