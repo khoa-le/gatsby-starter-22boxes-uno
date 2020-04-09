@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `22Boxes Template Uno`,
+    title: `Trang Sức Kim Cương Đẹp PRECITA`,
     author: {
       name: `Gagandeep Singh`,
       summary: `22boxes.com`,
