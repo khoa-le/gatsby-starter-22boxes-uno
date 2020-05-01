@@ -5,7 +5,7 @@ module.exports = {
       name: `Gagandeep Singh`,
       summary: `22boxes.com`,
     },
-    description: `22Boxes Gatsby template Uno`,
+    description: `Trang Sức Kim Cương Đẹp PRECITA`,
     siteUrl: `https://22boxesgatsbyuno.netlify.com/`,
     social: {
       twitter: `twentytwoboxes`,

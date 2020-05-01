@@ -30,7 +30,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    image: file(absolutePath: { regex: "/precita.jpg/" }) {
+    image: file(absolutePath: { regex: "/precita-maintenance.jpg/" }) {
       childImageSharp {
         fluid(maxWidth: 700) {
           ...GatsbyImageSharpFluid_noBase64
